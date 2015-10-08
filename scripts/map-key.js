@@ -5,6 +5,10 @@
     console.log('Map key exists.');
   };
 
+  proto.createdCallback = function() {
+    console.log('Map key created.');
+  };
+
   var MapKey = doc.registerElement('map-key', {
   	prototype: proto
   });
