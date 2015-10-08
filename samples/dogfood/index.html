@@ -9,6 +9,9 @@
     <script>
       (function() {
         var key = document.querySelector('map-key');
+        key.addEventListener('click', function() {
+          console.log('map key clicked.');
+        });
         key.logExistence();
       })();
     </script>
