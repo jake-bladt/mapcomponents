@@ -7,6 +7,7 @@
 
   proto.createdCallback = function() {
     console.log('Map key created.');
+
     this.addEventListener('click', function() {
       console.log('map key clicked.');
     });
