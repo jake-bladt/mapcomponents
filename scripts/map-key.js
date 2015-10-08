@@ -1,12 +1,11 @@
 (function(doc) {
-  var proto = Object.create(HTMLDivElement.prototype);
+  var proto = Object.create(HTMLElement.prototype);
 
   proto.logExistence = function() {
     console.log('Map key exists.');
   };
 
   var MapKey = doc.registerElement('map-key', {
-  	extends: 'div',
   	prototype: proto
   });
 })(document);
