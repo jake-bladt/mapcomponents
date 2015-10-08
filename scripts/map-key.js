@@ -1,5 +1,5 @@
 (function(doc) {
-  var proto = Object.create(HtmlDivElement.prototype);
+  var proto = Object.create(HTMLDivElement.prototype);
 
   proto.logExistence = function() {
     console.log('Map key exists.');
