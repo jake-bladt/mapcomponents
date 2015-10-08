@@ -1,0 +1,6 @@
+map-key {
+  min-width: 100px; 
+  min-height: 100px; 
+  display: inline-block; 
+  background-color: pink;
+}
